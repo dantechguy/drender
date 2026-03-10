@@ -1,9 +1,9 @@
-*This source code was copied from my university dissertation submission.*
+*This source code was extracted and copied from another project to this repository.*
 
 # Dan's Renderer
 
 **What is it?** A declarative 3D renderer library which only draws with canvas primitives, and therefore cannot use a Z-buffer and instead uses a new implementation of the Painter's Algorithm.  
-**Why?** As part of my university dissertation, but also out of interest because I've never seen a painter's algorithm implementation before!
+**Why?** I was curious how a Painter's algorithm implementation (and associated problems and optimisations) would differ from the traditional Z-buffer approach.
 
 Has several interesting novel implementation details which differ from a Z-buffer implementation:
 - **Proper tri-sorting.** A key part to the painter's algorithm is to sort the tris in the scene back-to-front for rendering, and you can't just sort by distance. See `src/sorting/sort_tri_tri.dart` for the algorithms for this.
