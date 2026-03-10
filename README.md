@@ -1,3 +1,5 @@
+*This source code was copied from my university dissertation submission.*
+
 # Dan's Renderer
 
 **What is it?** A declarative 3D renderer library which only draws with canvas primitives, and therefore cannot use a Z-buffer and instead uses a new implementation of the Painter's Algorithm.  
